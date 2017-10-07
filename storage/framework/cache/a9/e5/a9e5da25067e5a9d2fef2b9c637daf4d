@@ -1,0 +1,49 @@
+1507387480a:1:{s:24:"pages-all/navigation.htm";a:6:{s:8:"fileName";s:24:"pages-all/navigation.htm";s:7:"content";s:1823:"[viewBag]
+==
+<div class="lt-navbar navbar-fixed">
+  <nav class="lt-no-background">
+    <div class="nav-wrapper">
+      <div class="lt-container container">
+        <a href="{{ 'home'|page }}" class="brand-logo white-text">法中教育服务中心</a>
+        <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">菜单</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">主页</a></li>
+          <li class="{% if this.page.id == 'consulting' %}active{% endif %}"><a href="{{ 'consulting'|page }}">申请咨询</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li> -->
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">联系我们</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">主页</a></li>
+          <li class="{% if this.page.id == 'consulting' %}active{% endif %}"><a href="{{ 'consulting'|page }}">申请咨询</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li> -->
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>";s:5:"mtime";i:1507373865;s:6:"markup";s:1810:"<div class="lt-navbar navbar-fixed">
+  <nav class="lt-no-background">
+    <div class="nav-wrapper">
+      <div class="lt-container container">
+        <a href="{{ 'home'|page }}" class="brand-logo white-text">法中教育服务中心</a>
+        <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">菜单</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">主页</a></li>
+          <li class="{% if this.page.id == 'consulting' %}active{% endif %}"><a href="{{ 'consulting'|page }}">申请咨询</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li> -->
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">联系我们</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">主页</a></li>
+          <li class="{% if this.page.id == 'consulting' %}active{% endif %}"><a href="{{ 'consulting'|page }}">申请咨询</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li> -->
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

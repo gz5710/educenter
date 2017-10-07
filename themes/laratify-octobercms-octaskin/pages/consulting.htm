@@ -1,0 +1,24 @@
+title = "Consulting"
+url = "/consulting"
+layout = "octaskin"
+description = "报名咨询"
+is_hidden = 0
+
+[viewBag]
+localeUrl[zh-CN] = "/consulting"
+==
+<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      {% partial "pages-consulting/header" %}
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      {% partial "pages-consulting/form" %}
+    </div>
+  </div>
+</section>

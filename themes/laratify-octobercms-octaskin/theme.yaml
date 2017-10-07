@@ -1,0 +1,6 @@
+name: 法中教育服务中心
+description: 'Free exchanged education platform between China and France.'
+author: Yun
+homepage: 'https://www.gongzhe.fr/'
+code: octobercms-octaskin
+form: config/fields.yaml
